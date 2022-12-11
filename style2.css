@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2F0453;
+  color: white;
+  overflow: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #822882;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: rgb(230, 214, 214);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  width: 210px;
+  height: 45px;
+  font-size: 25px;
+}
+
+.conta {
+  display: flex;
+  gap: 30px;
+  padding-right: 50px;
+}
+
+.conta img {
+  height: 35px;
+}
+
+main {
+  background-image: url("./Assets/Group\ 2.svg");
+  height: 1246.5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteudo {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudoEsquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0000008b;
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.perfil .imagens {
+  display: flex;
+  padding-top: 10px;
+}
+
+.nomeUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil p {
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+#userId {
+  width: 250px;
+}
+
+.nivel {
+  background-color: #0000008b;
+  width: 350px;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 15px;
+}
+
+.nivel .title {
+  font-size: 25px;
+}
+
+.nivelUser {
+  text-align: center;
+  color: #E386E3;
+}
+
+.nivelUser img {
+  width: 300px;
+}
+
+.conteudoDireta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+
+.sobreConteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0000008b;
+  width: 550px;
+  height: 60%;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.sobreTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.borda {
+  width: 95%;
+  height: 80%;
+  border: 1px dashed #FFFFFF;
+  border-radius: 10px;
+}
+
+.historico {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0000008b;
+  width: 550px;
+  height: 35%;
+  border-radius: 15px;
+  padding: 40px;
+  line-height: auto;
+  font-size: 25px;
+}
+
+.historico span {
+  color: #E386E3;
+}
+
+.lapis {
+  height: 30px;
+}
+
+footer {
+  background-color: #822882;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.direitos {
+  display: flex;
+  flex-direction: column;
+
+  width: 300px;
+  font-size: 13px;
+}
+
+footer img {
+  width: 70px;
+}
